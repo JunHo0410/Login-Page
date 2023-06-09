@@ -1,0 +1,1 @@
+export const BUILD_VERSION = 'BUILD 0.0.1v'
