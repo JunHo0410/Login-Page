@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .error-message {
-    color: white;
-    background-color: red;
+    color: red;
 }

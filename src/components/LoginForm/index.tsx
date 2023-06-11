@@ -7,8 +7,8 @@ const LoginForm: React.FC = () => {
   const validationSchema = Yup.object({
     email: Yup.string()
       .email("Invalid email address")
-      .required("Email is required"),
-    password: Yup.string().required("Password is required"),
+      .required("* Email is required"),
+    password: Yup.string().required("* Password is required"),
   });
 
   // Handle form submission
